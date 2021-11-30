@@ -33,14 +33,16 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'faraday'
+gem 'json'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
-  gem 'webmock'
   gem 'faker'
   gem 'factory_bot'
   gem 'shoulda-matchers'
+  gem 'figaro'
 end
 
 group :development do
@@ -56,6 +58,8 @@ group :test do
   gem 'launchy'
   gem 'simplecov'
   gem 'orderly'
+  gem 'webmock'
+  gem 'vcr'
 end
 
 
