@@ -1,1 +1,11 @@
-<h1>Streamin' the web!</h1>
+<h1 id="header">Viewing Party Light</h1>
+
+<section id="create_user">
+  <%= button_to "Create New User", new_user_path %>
+</section>
+
+<% @users.each do |user| %>
+  <section id="user-<%= user.id %>">
+    <%= link_to "#{user.email}", "/users/#{user.id}" %>
+  </section>
+<% end %>
