@@ -1,11 +1,13 @@
 <h1 id="header">Viewing Party Light</h1>
 
 <section id="create_user">
-  <%= button_to "Create New User", new_user_path %>
+  <%= button_to "Create New User", "/register", method: :get %>
 </section>
-
+<br>
+<br>
+<h2>Existing Users:<br></h2>
 <% @users.each do |user| %>
   <section id="user-<%= user.id %>">
-    <%= link_to "#{user.email}", "/users/#{user.id}" %>
+    <p><%= link_to "#{user.email}", "/users/#{user.id}" %></p>
   </section>
 <% end %>

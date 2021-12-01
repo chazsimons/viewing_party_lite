@@ -4,9 +4,9 @@ class MoviesController < ApplicationController
 
   def index
     if params[:q] == "top%40rated"
-      @facade = TopMoviesFacade.new
+      @facade = TopMovieFacade.new(params[:id])
     else
-      @facade = SearchMovieFacade.new(params[:q])
+      @facade = SearchMovieFacade.new(params[:q], params[:id])
     end
   end
 end
