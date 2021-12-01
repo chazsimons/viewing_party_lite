@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   post '/users', to: 'users#create', as: 'create_user'
 
   get 'users/:id', to: 'users#show', as: 'user'
-  get 'users/:id/discover', to: 'users#discover'
+  get 'users/:id/discover', to: 'users#discover', as: 'discover'
 
   root 'welcome#index'
 

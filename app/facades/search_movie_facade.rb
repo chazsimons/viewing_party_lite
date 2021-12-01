@@ -1,5 +1,8 @@
 class SearchMovieFacade
-  def initialize(query)
+  attr_reader :user_id
+
+  def initialize(query, user_id = nil)
+    @user_id = user_id
     @query = query
   end
 

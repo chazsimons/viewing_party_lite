@@ -6,13 +6,13 @@ RSpec.describe 'Discover Movies' do
       @user_1 = create(:user)
     end
 
-    it 'has a button to discover top rated movies' do
+    it 'has a button to discover top rated movies', :vcr do
       visit "/users/#{@user_1.id}/discover"
 
-      expect(page).to have_button("Top Rated Movies")
+      click_button("Top Rated Movies")
     end
 
-    it 'has a search feature for movies' do
+    it 'has a search feature for movies', :vcr do
       visit "/users/#{@user_1.id}/discover"
 
       within("#search") do

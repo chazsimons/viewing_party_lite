@@ -1,0 +1,9 @@
+<h1>Movie Results</h1>
+
+<%= button_to "Discover More Movies", "/users/#{@facade.user_id}/discover", method: :get %>
+
+<ul>
+  <% @facade.movies.each_with_index do |movie, index| %>
+    <li id="movie-<%= index %>"> <%= link_to "#{movie.title}", "/users/#{@facade.user_id}/movie/#{movie.id}" %> Vote Average: <%= movie.rating %></li>
+  <% end %>
+</ul>
