@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe MovieFacade do
-  describe 'top rated' do
+RSpec.describe TopMovieFacade do
+  describe 'movies' do
     it 'can return 40 top rated films', :vcr do
-      facade = MovieFacade.new
-      top_films = facade.top_rated
+      facade = TopMovieFacade.new
+      top_films = facade.movies
 
       expect(top_films).to be_an(Array)
       expect(top_films.count).to eq(40)

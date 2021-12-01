@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/search/movie?api_key=<movie_api>&page=1&query=Pee%20Wee
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 01 Dec 2021 18:58:14 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=600
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 7eefe38d76087dfad8e2f0b7702246ef.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - IAD89-C3
+      X-Amz-Cf-Id:
+      - ANGvmpC837Hb5Vn-LC1kRvGsUcyMoKl0sEunaOT-M2hrTKke1hPidw==
+      Age:
+      - '284'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwYWdlIjoxLCJyZXN1bHRzIjpbeyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvbUhXRkNyNnVpOVM0UTJwZ3FXNVl3UXRadmlLLmpwZyIsImdlbnJlX2lkcyI6WzM1LDEwNzUxXSwiaWQiOjMwNTAyLCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJCaWcgVG9wIFBlZS13ZWUiLCJvdmVydmlldyI6IlBhdWwgUmV1YmVucyBzdGFycyBhcyBQZWUtd2VlIEhlcm1hbiBpbiBoaXMgc2Vjb25kIGZ1bGwtbGVuZ3RoIGZpbG0gYWJvdXQgYSBmYXJtZXIgd2hvIGpvaW5zIHRoZSBjaXJjdXMgYWZ0ZXIgYSBzdG9ybSBkcm9wcyBhIGJpZyB0ZW50IGluIGhpcyBmcm9udCB5YXJkLiBQZWUtd2VlLCBhbG9uZyB3aXRoIGFuIG91dGxhbmRpc2ggY2FzdCBvZiBhbmltYWxzIGFuZCBjaXJjdXMgcGVyZm9ybWVycywgcHV0cyBvbiB0aGUgYmVzdCBzaG93IGV2ZXIuIiwicG9wdWxhcml0eSI6Ni40MSwicG9zdGVyX3BhdGgiOiIvdDlBaUZsNmt0NXZNaFh6TUhUWjY2NTFURUNsLmpwZyIsInJlbGVhc2VfZGF0ZSI6IjE5ODgtMDctMjIiLCJ0aXRsZSI6IkJpZyBUb3AgUGVlLXdlZSIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo1LCJ2b3RlX2NvdW50Ijo5NH0seyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIveUxkZ0hia2NHZUdiWExTWFBIWUFleENjdlpZLmpwZyIsImdlbnJlX2lkcyI6WzM1XSwiaWQiOjg0NTk4LCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJQaW1waW4nIFBlZSBXZWUiLCJvdmVydmlldyI6IlRocmVlIGNvbGxlZ2UgYnVkZGllcyBzZWFyY2ggZm9yIHNleCBpbiB0aGUgc3VtbWVyIGhvbGlkYXlzIGFuZCBlbmQgdXAgc3RhcnRpbmcgYSBzdWNjZXNzZnVsIHdob3JlaG91c2UuIiwicG9wdWxhcml0eSI6Mi43MiwicG9zdGVyX3BhdGgiOiIvZkZHbTNxQkxKVlJiTVJyVGgyVEY1dWw1Tjl1LmpwZyIsInJlbGVhc2VfZGF0ZSI6IjIwMDktMDEtMDkiLCJ0aXRsZSI6IlBpbXBpbicgUGVlIFdlZSIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo0LjcsInZvdGVfY291bnQiOjEwfSx7ImFkdWx0IjpmYWxzZSwiYmFja2Ryb3BfcGF0aCI6Ii8yQ3pRRGNGMnc5SXA1S05OSG1nY2pkUHRtWWcuanBnIiwiZ2VucmVfaWRzIjpbMzUsMTA3NzBdLCJpZCI6MjAzNjMsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6IlRoZSBQZWUtd2VlIEhlcm1hbiBTaG93Iiwib3ZlcnZpZXciOiJBbiBhZHVsdC1vcmllbnRlZCB2ZXJzaW9uIG9mIHdoYXQgd291bGQgZXZlbnR1YWxseSBiZWNvbWUgYW4gYXdhcmQtd2lubmluZyBjaGlsZHJlbidzIGNsYXNzaWMuIFRoaXMgdmVyc2lvbiBvZiB0aGUgc2hvdyBmZWF0dXJlcyBQZWUtd2VlJ3MgcGxheWhvdXNlIGFuZCBtYW55IG9mIHRoZSBjaGFyYWN0ZXJzIG9mIHRoZSBsYXRlciBzZXJpZXMsIGJ1dCB3aXRoIGFkdWx0IGFuZCBzZXh1YWwgb3ZlcnRvbmVzIGFuZCBqb2tlcyBpbmNsdWRpbmcgXCJtaXJyb3Igc2hvZXNcIiBhbmQgb3RoZXJzLiIsInBvcHVsYXJpdHkiOjIuNTAyLCJwb3N0ZXJfcGF0aCI6Ii9kcWxlU2xKOGVWcGZWajBDRlBYQWxON0YxdGIuanBnIiwicmVsZWFzZV9kYXRlIjoiMTk4MS0wMS0wMSIsInRpdGxlIjoiVGhlIFBlZS13ZWUgSGVybWFuIFNob3ciLCJ2aWRlbyI6ZmFsc2UsInZvdGVfYXZlcmFnZSI6Ny41LCJ2b3RlX2NvdW50IjoyMX0seyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvOHFvYjByMzdHVDhZVjNsQTdwSWZjbnAwRkJRLmpwZyIsImdlbnJlX2lkcyI6WzM1LDEyXSwiaWQiOjU2ODMsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6IlBlZS13ZWUncyBCaWcgQWR2ZW50dXJlIiwib3ZlcnZpZXciOiJUaGUgZWNjZW50cmljIGFuZCBjaGlsZGlzaCBQZWUtd2VlIEhlcm1hbiBlbWJhcmtzIG9uIGEgYmlnIGFkdmVudHVyZSB3aGVuIGhpcyBiZWxvdmVkIGJpY3ljbGUgaXMgc3RvbGVuLiBBcm1lZCB3aXRoIGluZm9ybWF0aW9uIGZyb20gYSBmb3J0dW5lLXRlbGxlciBhbmQgYSByZWxlbnRsZXNzIG9ic2Vzc2lvbiB3aXRoIGhpcyBwcml6ZWQgcG9zc2Vzc2lvbiwgUGVlLXdlZSBlbmNvdW50ZXJzIGEgaG9zdCBvZiBvZGQgY2hhcmFjdGVycyBhbmQgYml6YXJyZSBzaXR1YXRpb25zIGFzIGhlIHRyZWtzIGFjcm9zcyB0aGUgY291bnRyeSB0byByZWNvdmVyIGhpcyBiaWtlLiIsInBvcHVsYXJpdHkiOjExLjMxMywicG9zdGVyX3BhdGgiOiIvNDE0SVVYYzU0bXJoWDg4WlVRaVJETFhuMDFpLmpwZyIsInJlbGVhc2VfZGF0ZSI6IjE5ODUtMDctMjYiLCJ0aXRsZSI6IlBlZS13ZWUncyBCaWcgQWR2ZW50dXJlIiwidmlkZW8iOmZhbHNlLCJ2b3RlX2F2ZXJhZ2UiOjYuNCwidm90ZV9jb3VudCI6NTc4fSx7ImFkdWx0IjpmYWxzZSwiYmFja2Ryb3BfcGF0aCI6Ii82VVdrUVkzb3NZWUg3MGt6SEN4QXRhZHpFNGUuanBnIiwiZ2VucmVfaWRzIjpbMTIsMzUsMTA3NTFdLCJpZCI6MzQ3Njg5LCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJQZWUtd2VlJ3MgQmlnIEhvbGlkYXkiLCJvdmVydmlldyI6IkEgZmF0ZWZ1bCBtZWV0aW5nIHdpdGggYSBteXN0ZXJpb3VzIHN0cmFuZ2VyIGluc3BpcmVzIFBlZS13ZWUgSGVybWFuIHRvIHRha2UgaGlzIGZpcnN0LWV2ZXIgaG9saWRheS4iLCJwb3B1bGFyaXR5Ijo5LjE4MSwicG9zdGVyX3BhdGgiOiIvazViWlMyTnNnVnN3dVRoQmZ5SllhVjZUNnp1LmpwZyIsInJlbGVhc2VfZGF0ZSI6IjIwMTYtMDMtMTUiLCJ0aXRsZSI6IlBlZS13ZWUncyBCaWcgSG9saWRheSIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjEsInZvdGVfY291bnQiOjE3Mn0seyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOm51bGwsImdlbnJlX2lkcyI6WzM1XSwiaWQiOjYwOTc3LCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJUaGUgUGVlLVdlZSBIZXJtYW4gU2hvdyBPbiBCcm9hZHdheSIsIm92ZXJ2aWV3IjoiUGVlLVdlZSBpcyBleGNpdGVkIHdoZW4gSmFtYmkgdGhlIGdlbmllIGdyYW50cyBoaW0gYSB3aXNoLiBIZSB3aXNoZXMgdG8gZmx5IGJ1dCBnZXRzIHVwc2V0IHdoZW4gaGUgc2VlcyBDYXB0YWluIENhcmwgYW5kIE1pc3MgWXZvbm5lIG9uIGEgcm9tYW50aWMgZGF0ZSB3aXRoIGVhY2ggb3RoZXIuIiwicG9wdWxhcml0eSI6Mi4yNjEsInBvc3Rlcl9wYXRoIjoiL2lxYlN1eldmUm85T3JZYU5jTFJOVzJXWFliTC5qcGciLCJyZWxlYXNlX2RhdGUiOiIyMDExLTAzLTE5IiwidGl0bGUiOiJUaGUgUGVlLVdlZSBIZXJtYW4gU2hvdyBPbiBCcm9hZHdheSIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjcsInZvdGVfY291bnQiOjIxfSx7ImFkdWx0IjpmYWxzZSwiYmFja2Ryb3BfcGF0aCI6Ii9sNWdzb2RoNXFWZUIxMzFObWJCN2ZtWXJLZW8uanBnIiwiZ2VucmVfaWRzIjpbMzUsMTA3NTEsMThdLCJpZCI6MTg1OTM1LCJvcmlnaW5hbF9sYW5ndWFnZSI6ImZyIiwib3JpZ2luYWxfdGl0bGUiOiJMZXMgUGVlLVdlZSAzRCA6IEwnaGl2ZXIgcXVpIGEgY2hhbmfDqSBtYSB2aWUiLCJvdmVydmlldyI6IldoZW4gaGlzIHdpZmUgZGllcywgQ2FybCBvZmZlcnMgaGlzIG9ubHkgc29uLCBKYW5lYXUsIDEyLCBhIGZyZXNoIHN0YXJ0LiBUaGV5IG1vdmUgdG8gTW9udCBTYWludC1IaWxhaXJlLCB3aGVyZSBKYW5lYXUgbWFrZXMgZnJpZW5kcyB3aXRoIEp1bGllLCBhIHRhbGVudGVkIFBlZS1XZWUgaG9ja2V5IGdvYWxpZSBkZXRlcm1pbmVkIHRvIGNvbXBldGUgaW4gdGhlIGFubnVhbCBXb3JsZCBUb3VybmFtZW50IGhlbGQgaW4gUXVlYmVjLiBTaGUgY29udmluY2VzIEphbmVhdSB0byBqb2luIHRoZSB0ZWFtLCBidXQgaGUgaGFzIGEgaGFyZCB0aW1lIGJlaW5nIGFjY2VwdGVkIGJ5IHRoZSByZXN0IG9mIHRoZSBwbGF5ZXJzLCBpbmNsdWRpbmcgSm9leSwgdGhlIHN0YXIgcGxheWVyIHdobyBoYXMgdG8gZW5kdXJlIGNvbnN0YW50IHByZXNzdXJlIGZyb20gaGlzIGZhdGhlci4iLCJwb3B1bGFyaXR5IjoyLjAxMiwicG9zdGVyX3BhdGgiOiIvblZZUjJDNkh2cE4xVmhCcWloWG9sS1BLQ0N5LmpwZyIsInJlbGVhc2VfZGF0ZSI6IjIwMTItMTItMjEiLCJ0aXRsZSI6IlRoZSBQZWUgV2VlIDNEOiBUaGUgV2ludGVyIFRoYXQgQ2hhbmdlZCBNeSBMaWZlIiwidmlkZW8iOmZhbHNlLCJ2b3RlX2F2ZXJhZ2UiOjUuOCwidm90ZV9jb3VudCI6MTF9LHsiYWR1bHQiOmZhbHNlLCJiYWNrZHJvcF9wYXRoIjpudWxsLCJnZW5yZV9pZHMiOltdLCJpZCI6NDQ5NzYxLCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJEZWF0aCBUbyBUaGUgUGVlIFdlZSBTcXVhZCIsIm92ZXJ2aWV3IjoiV2hlbiBKYXNvbiBhbmQgWmVlYSBhcmUgbGVmdCBob21lIGFsb25lIHdpdGggRGFk4oCZcyBwcmljZWxlc3MgaW52ZW50aW9uLCB0aGV5IGZvcm0gdGhlIOKAmFBlZS1XZWUgU3F1YWTigJkgdG8gcHJvdGVjdCBpdC4iLCJwb3B1bGFyaXR5IjowLjYsInBvc3Rlcl9wYXRoIjoiL3U1bUlYbGwyYmxWYzNMa0VCZlRyYmhiSUNLWS5qcGciLCJyZWxlYXNlX2RhdGUiOiIxOTgyLTA0LTIwIiwidGl0bGUiOiJEZWF0aCBUbyBUaGUgUGVlIFdlZSBTcXVhZCIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjowLCJ2b3RlX2NvdW50IjowfSx7ImFkdWx0IjpmYWxzZSwiYmFja2Ryb3BfcGF0aCI6bnVsbCwiZ2VucmVfaWRzIjpbXSwiaWQiOjQyOTEyNCwib3JpZ2luYWxfbGFuZ3VhZ2UiOiJlbiIsIm9yaWdpbmFsX3RpdGxlIjoiUGVlLVdlZSBHb2VzIHRvIFByaXNvbiIsIm92ZXJ2aWV3IjoiVW5iZWtub3duc3QgdG8gUGVlLVdlZSBhbmQgY3JldywgdGhlIFBsYXlob3VzZSBpcyBzdXJyb3VuZGVkIGJ5IGEgU1dBVCB0ZWFtLiBBbmQganVzdCBhcyBDb25raSBkZWxpdmVycyB0aGUgZGF5J3Mgc2VjcmV0IHdvcmTigJRKdXN0aWNl4oCUYWxsIGhlbGwgYnJlYWtzIGxvb3NlLiIsInBvcHVsYXJpdHkiOjAuNiwicG9zdGVyX3BhdGgiOm51bGwsInJlbGVhc2VfZGF0ZSI6IjIwMDMtMTEtMTUiLCJ0aXRsZSI6IlBlZS1XZWUgR29lcyB0byBQcmlzb24iLCJ2aWRlbyI6ZmFsc2UsInZvdGVfYXZlcmFnZSI6MCwidm90ZV9jb3VudCI6MH0seyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvdnFvQXZlZkt4QkFnNHhxYlh3TERCRzdRVnlxLmpwZyIsImdlbnJlX2lkcyI6WzEwNzUxLDM1LDEwNzcwXSwiaWQiOjQ5MDQxLCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVuIiwib3JpZ2luYWxfdGl0bGUiOiJDaHJpc3RtYXMgYXQgUGVlIFdlZSdzIFBsYXlob3VzZSIsIm92ZXJ2aWV3IjoiUGVlLXdlZSBIZXJtYW4gYW5kIHBhbHMgYXJlIGNlbGVicmF0aW5nIENocmlzdG1hcyBpbiB0aGUgUGxheWhvdXNlIGluIHRoZWlyIG93biBjcmVhdGl2ZSB3YXlzOiBQZWUtd2VlIG1ha2VzIGEgbGlzdCBmb3IgU2FudGEgQ2xhdXMgMSAxLzIgbWlsZXMgbG9uZywgdGVhY2hlcyBMaXR0bGUgUmljaGFyZCBob3cgdG8gaWNlIHNrYXRlLCBnb2VzIGZvciBhIHNsZWlnaCByaWRlIHdpdGggTWFnaWMgSm9obnNvbiwgY29tbWFuZHMgRnJhbmtpZSBBdmFsb24gYW5kIEFubmV0dGUgRnVuaWNlbGxvIHRvIG1ha2UgQ2hyaXN0bWFzIGNhcmRzLCByZWNlaXZlcyBhIGxvbmcgcGhvbmUgY2FsbCBmcm9tIERpbmFoIFNob3JlLCBldmVuIGhhcyBtb3JlIG11c2ljYWwgZnVuIHdpdGggay5kLiBsYW5nLCB0aGUgRGVsIFJ1YmlvIFRyaXBsZXR0ZXMgYW5kIENoYXJvISBGaW5hbGx5LCBCaWcgUmVkIGFycml2ZXMgYW5kIGFubm91bmNlcyB0aGF0IFBlZS13ZWUncyBDaHJpc3RtYXMgbGlzdCB3YXMgc28gYmlnLCBoZSBkaWRuJ3QgaGF2ZSBlbm91Z2ggcHJlc2VudHMgZm9yIGFsbCB0aGUgY2hpbGRyZW4gb2YgdGhlIHdvcmxkLiBXaWxsIFBlZS13ZWUgZm9sbG93IGhpcyBvd24gYWR2aWNlIGFuZCBoZWxwIG90aGVycz8iLCJwb3B1bGFyaXR5IjoyLjU4MiwicG9zdGVyX3BhdGgiOiIvZGlkZGs4bDlqRU9tdFNKdHNzMDBtd0lSWW1VLmpwZyIsInJlbGVhc2VfZGF0ZSI6IjE5ODgtMTItMjUiLCJ0aXRsZSI6IkNocmlzdG1hcyBhdCBQZWUgV2VlJ3MgUGxheWhvdXNlIiwidmlkZW8iOmZhbHNlLCJ2b3RlX2F2ZXJhZ2UiOjcuMywidm90ZV9jb3VudCI6Mjd9LHsiYWR1bHQiOmZhbHNlLCJiYWNrZHJvcF9wYXRoIjpudWxsLCJnZW5yZV9pZHMiOls5OV0sImlkIjo3MzE1NDQsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6IlBlZS13ZWUncyBCaWcgQWR2ZW50dXJlOiBQcm9kdWN0aW9uIFNrZXRjaGVzIGFuZCBTdG9yeWJvYXJkcyIsIm92ZXJ2aWV3IjoiV2hpbGUgbG9va2luZyB0aHJvdWdoIGFuIGFzc29ydG1lbnQgb2Ygc2NoZW1hdGljcywgY29uY2VwdCBhcnQgYW5kIHN0b3J5Ym9hcmRzLCBwcm9kdWN0aW9uIGRlc2lnbmVyIERhdmlkIEwuIFNueWRlciBleHBsYWlucyBoaXMgaW52b2x2ZW1lbnQgYW5kIHRhbGtzIGFib3V0IGhpcyB2YXJpb3VzIGlkZWFzIHNlZW4gaW4gaGlzIGFydHdvcmsuIiwicG9wdWxhcml0eSI6MC42LCJwb3N0ZXJfcGF0aCI6bnVsbCwicmVsZWFzZV9kYXRlIjoiMjAwOC0wMS0wMSIsInRpdGxlIjoiUGVlLXdlZSdzIEJpZyBBZHZlbnR1cmU6IFByb2R1Y3Rpb24gU2tldGNoZXMgYW5kIFN0b3J5Ym9hcmRzIiwidmlkZW8iOmZhbHNlLCJ2b3RlX2F2ZXJhZ2UiOjAsInZvdGVfY291bnQiOjB9LHsiYWR1bHQiOmZhbHNlLCJiYWNrZHJvcF9wYXRoIjoiL2ZMMVdwc3ZVajdFTFlXbFdtdFFvalA2eVVXNS5qcGciLCJnZW5yZV9pZHMiOlsxOF0sImlkIjo0ODM0MDcsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZnIiLCJvcmlnaW5hbF90aXRsZSI6Ikp1bmlvciBNYWpldXIiLCJvdmVydmlldyI6IkZpdmUgeWVhcnMgYWZ0ZXIgd2lubmluZyB0aGUgUXVlYmVjIFBlZS1XZWUgdG91cm5hbWVudCB3aXRoIGhpcyB0ZWFtLCAxOC15ZWFyLW9sZCBob2NrZXkgcHJvZGlneSBKYW5lYXUgVHJ1ZGVsIGlzIHBsYXlpbmcgZm9yIHRoZSBDaGljb3V0aW1pIFNhZ3VlbsOpZW5zIGluIHRoZSBRdWViZWMgTWFqb3IgSnVuaW9yIEhvY2tleSBMZWFndWUuIiwicG9wdWxhcml0eSI6MS43MjgsInBvc3Rlcl9wYXRoIjoiL0F3eDRLZENrWEd1ZGlBNHRZdDlsemhyZnJLLmpwZyIsInJlbGVhc2VfZGF0ZSI6IjIwMTctMTEtMjMiLCJ0aXRsZSI6Ikp1bmlvciBNYWpldXIiLCJ2aWRlbyI6ZmFsc2UsInZvdGVfYXZlcmFnZSI6Ny4yLCJ2b3RlX2NvdW50Ijo5fV0sInRvdGFsX3BhZ2VzIjoxLCJ0b3RhbF9yZXN1bHRzIjoxMn0=
+  recorded_at: Wed, 01 Dec 2021 19:02:58 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/search/movie?api_key=<movie_api>&page=2&query=Pee%20Wee
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 01 Dec 2021 18:58:37 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=600
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 2f66aa06710fece8ed203ab0ea81eb56.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - IAD89-C3
+      X-Amz-Cf-Id:
+      - 0d_g8qPyCriqIOseyvYiTX0vLg_FHai2GnIfjW5aFFfBK_Y_xrXX9Q==
+      Age:
+      - '261'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":2,"results":[],"total_pages":1,"total_results":12}'
+  recorded_at: Wed, 01 Dec 2021 19:02:58 GMT
+recorded_with: VCR 6.0.0
