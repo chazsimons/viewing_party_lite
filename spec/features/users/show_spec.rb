@@ -12,5 +12,11 @@ RSpec.describe 'User Dashboard' do
       expect(page).to have_content("#{@user_1.name}'s Dashboard")
       expect(page).to_not have_content(@user_2.name)
     end
+
+    it 'has a link to descover movies' do
+      click_button 'Discover Movies'
+
+      expect(current_path).to eq "/users/#{@user_1.id}/discover"
+    end
   end
 end
