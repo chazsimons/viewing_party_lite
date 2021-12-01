@@ -1,6 +1,6 @@
 require './app/poros/movie.rb'
-class MovieFacade
-  def top_rated
+class TopMovieFacade
+  def movies
     films_1 = service.films_1[:results]
     films_2 = service.films_2[:results]
     films = films_1 + films_2
