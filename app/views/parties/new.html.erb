@@ -1,0 +1,17 @@
+<h2>Create a new Viewing Party!</h2>
+
+<%= form_with url: new_party_path, method: :post, local: true do |f| %>
+  <%= f.label :length, "Duration of Party" %>
+  <%= f.number_field :length, value: @facade.movie.runtime %><br>
+  <%= f.hidden_field :creator_id, value: @facade.user.id %>
+  <%= f.datetime_field :start_time %><br>
+
+  <% @facade.users.each do |user| %>
+    <% if user.id != @facade.user.id %>
+      <%= f.label "#{user.id}", user.name%>
+      <%= f.check_box "#{user.id}" %><br>
+    <% end %>
+  <% end %>
+
+  <%= f.submit "Create Party" %>
+<% end %>
