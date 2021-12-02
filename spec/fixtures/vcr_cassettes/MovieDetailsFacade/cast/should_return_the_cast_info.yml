@@ -25,7 +25,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 02 Dec 2021 16:32:42 GMT
+      - Thu, 02 Dec 2021 22:09:16 GMT
       Server:
       - openresty
       Access-Control-Allow-Origin:
@@ -42,23 +42,21 @@ http_interactions:
       X-Memc-Key:
       - 9e6a179e692756c6fa7ddd27412dd12f2f795f3c
       X-Memc-Age:
-      - '9307'
+      - '13443'
       X-Memc-Expires:
-      - '6508'
+      - '4521'
       Etag:
       - W/"8c83f3df2503e0f0fb7968e41b625504"
       Vary:
       - Accept-Encoding
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 dc54b4b1501bd18543cf9685cb010c30.cloudfront.net (CloudFront)
+      - 1.1 d5710f445906ae917df909d01c495c9e.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C2
+      - IAD50-C2
       X-Amz-Cf-Id:
-      - Okm5-VUACX5Gp8amR_kaDwTOTxx0JcF-cHsYwqA-W5gyvFoZ2fPolQ==
-      Age:
-      - '13036'
+      - rH6SWHtmhU4cO0CCaXmL8rOYzWX1lol53VxlU5MYDGRryvvuBvtDhQ==
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"cast":[{"adult":false,"gender":2,"id":514,"known_for_department":"Acting","name":"Jack
@@ -179,5 +177,5 @@ http_interactions:
         Bolder","original_name":"Sara Bolder","popularity":0.6,"profile_path":null,"credit_id":"5b1ee79e925141666400f4a3","department":"Sound","job":"Dialogue
         Editor"},{"adult":false,"gender":2,"id":1680739,"known_for_department":"Crew","name":"George
         Fisher","original_name":"George Fisher","popularity":0.6,"profile_path":"/mJ7uhFsgfZtZ58MU11mlPnUZWWy.jpg","credit_id":"57dd7610c3a3681414000697","department":"Crew","job":"Stunts"}]}'
-  recorded_at: Thu, 02 Dec 2021 20:09:58 GMT
+  recorded_at: Thu, 02 Dec 2021 22:09:16 GMT
 recorded_with: VCR 6.0.0
