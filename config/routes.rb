@@ -4,11 +4,11 @@ Rails.application.routes.draw do
   get '/register', to: 'users#new', as: 'new_user'
   post '/users', to: 'users#create', as: 'create_user'
 
-  get 'users/:id', to: 'users#show', as: 'user'
-  get 'users/:id/discover', to: 'users#discover', as: 'discover'
+  get '/users/:id', to: 'users#show', as: 'user'
+  get '/users/:id/discover', to: 'users#discover', as: 'discover'
 
   root 'welcome#index'
 
-  get 'users/:id/movies', to: 'movies#index'
-  get 'users/:user_id/movies/:id', to: 'movies#show'
+  get '/users/:id/movies', to: 'movies#index'
+  get '/users/:user_id/movies/:id', to: 'movies#show'
 end

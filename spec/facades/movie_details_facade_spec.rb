@@ -12,7 +12,7 @@ RSpec.describe MovieDetailsFacade do
       expect(movie.title).to eq "Mars Attacks!"
       expect(movie.rating).to eq 6.4
       expect(movie.poster).to eq "/hll4O5vSAfnZDb6JbnP06GPtz7b.jpg"
-      expect(movie.summery).to eq "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s."
+      expect(movie.summary).to eq "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s."
 
       expect(movie.genres).to be_a Array
       expect(movie.genres.length).to eq 3
