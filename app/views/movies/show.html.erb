@@ -2,7 +2,7 @@
 
 <%= button_to "Discover Movies", "/users/#{@facade.user_id}/discover", method: :get%>
 <br>
-<%= button_to "Create Viewing Party for #{@facade.movie.title}", "/users/#{@facade.user_id}/movies/#{@facade.movie_id}/viewing-party/new" %>
+<%= button_to "Create Viewing Party for #{@facade.movie.title}", "/users/#{@facade.user_id}/movies/#{@facade.movie_id}/viewing-party/new", method: :get %>
 <br>
 <br>
 <div id="details">

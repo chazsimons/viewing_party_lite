@@ -14,6 +14,14 @@ class MovieDetailsFacade
     MovieService.new
   end
 
+  def user
+    User.find(@user_id)
+  end
+
+  def users
+    User.all
+  end
+
   def movie
     Movie.new(service.details(@movie_id))
   end
