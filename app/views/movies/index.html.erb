@@ -4,6 +4,6 @@
 
 <ul>
   <% @facade.movies.each_with_index do |movie, index| %>
-    <li id="movie-<%= index %>"> <%= link_to "#{movie.title}", "/users/#{@facade.user_id}/movie/#{movie.id}" %> Vote Average: <%= movie.rating %></li>
+    <li id="movie-<%= index %>"> <%= link_to "#{movie.title}", "/users/#{@facade.user_id}/movies/#{movie.id}" %> Vote Average: <%= movie.rating %></li>
   <% end %>
 </ul>

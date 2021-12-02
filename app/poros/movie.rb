@@ -3,7 +3,7 @@ class Movie
               :rating,
               :id,
               :poster,
-              :summery,
+              :summary,
               :genres,
               :runtime
 
@@ -14,8 +14,15 @@ class Movie
 
     # poster path is https://image.tmdb.org/t/p/w200
     @poster = data[:poster_path]
-    @summery = data[:overview]
+    @summary = data[:overview]
     @genres = data[:genres]
     @runtime = data[:runtime]
+  end
+
+  def formated_time
+    hours = @runtime / 60.0
+    minutes = hours - hours.floor
+    minutes *= 60
+    "#{hours.floor} hour(s) and #{minutes.floor} minute(s)"
   end
 end
