@@ -1,20 +1,23 @@
 <h1><%= @facade.movie.title %></h1>
 
 <%= button_to "Discover Movies", "/users/#{@facade.user_id}/discover", method: :get%>
-
+<br>
 <%= button_to "Create Viewing Party for #{@facade.movie.title}", "/users/#{@facade.user_id}/movies/#{@facade.movie_id}/viewing-party/new" %>
-
+<br>
+<br>
 <div id="details">
-  Vote Average: <%= @facade.movie.rating %>
-  Runtime: <%= @facade.movie.formated_time %>
+  Vote Average: <%= @facade.movie.rating %> |
+  Runtime: <%= @facade.movie.formated_time %> |
   Genre(s): <% @facade.movie.genres.each do |genre|  %>
     <%= genre[:name] %>
   <% end %>
+<hr>
 </div>
 <div id="summary">
   Summary: <%= @facade.movie.summary %>
   <br>
 </div>
+<hr>
 <div id="cast">
   Cast: <% @facade.cast.each do |member| %>
     <p><%= member.name %> as <%= member.character %></p>
@@ -23,9 +26,12 @@
 
 <div id="reviews">
   <%= @facade.reviews.count %> Reviews <br>
+  <br>
   <% @facade.reviews.each do |review| %>
     Author: <%= review.author %><br>
     <br>
-    <%= review.content %>
+    <%= review.content %><br>
+    <br>
+    <hr>
   <% end %>
 </div>
