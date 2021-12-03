@@ -110,3 +110,27 @@ def movie_data
  :vote_average=>6.4,
  :vote_count=>4280}
 end
+def cast_data
+  {:adult=>false,
+ :gender=>2,
+ :id=>514,
+ :known_for_department=>"Acting",
+ :name=>"Jack Nicholson",
+ :original_name=>"Jack Nicholson",
+ :popularity=>16.27,
+ :profile_path=>"/6h12pZsgj3WWjMtykUgfLkLEBWz.jpg",
+ :cast_id=>6,
+ :character=>"President James Dale / Art Land",
+ :credit_id=>"52fe4214c3a36847f8002301",
+ :order=>0}
+end
+def review_data
+  {:author=>"Kamurai",
+ :author_details=>{:name=>"Kamurai", :username=>"Kamurai", :avatar_path=>"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg", :rating=>6.0},
+ :content=>
+  "Good watch, could watch again, but it's hard to honestly recommend.\r\n\r\nThis is one of those movies that is good because it is bad, whether or not that is done on purpose, for the purposes of parody.  Otherwise it's just a good old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts by almost anyone who was famous in the mid-1990s.  Though I do feel like most of the actors I liked were essentially wasted, but it is possible that was by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking on the movie almost makes me want a modernization, it has so many little quirks and nuances that really brings it to a special experience.  Even if you think it looks terrible, throw this on your queque and slot it in for a Bad Movie Night.",
+ :created_at=>"2021-02-23T16:52:21.762Z",
+ :id=>"603532c597eab4003fd23f18",
+ :updated_at=>"2021-06-23T15:58:52.206Z",
+ :url=>"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}
+end
