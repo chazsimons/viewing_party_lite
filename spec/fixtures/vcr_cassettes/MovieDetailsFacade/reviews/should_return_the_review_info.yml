@@ -24,8 +24,6 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 02 Dec 2021 22:09:16 GMT
       Server:
       - openresty
       Access-Control-Allow-Origin:
@@ -35,28 +33,32 @@ http_interactions:
       Access-Control-Expose-Headers:
       - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
         Content-Length, Content-Range
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Key:
       - 3563bb83f2cdceccdfa71129910b80697aa229a6
       X-Memc-Age:
-      - '0'
+      - '12464'
       X-Memc-Expires:
-      - '15388'
-      Last-Modified:
-      - '2021-08-03 16:42:16 +0000'
+      - '4258'
+      Date:
+      - Thu, 02 Dec 2021 16:32:42 GMT
+      Cache-Control:
+      - public, max-age=28800
+      Etag:
+      - W/"da1e99150804864cbf055d612b081cee"
       Vary:
       - Accept-Encoding
       X-Cache:
-      - Miss from cloudfront
+      - Hit from cloudfront
       Via:
-      - 1.1 90ad2a23a8617490c9d13e1f260633f8.cloudfront.net (CloudFront)
+      - 1.1 a363cb2607688e592410896234cdb47d.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - IAD50-C2
+      - LAX50-C2
       X-Amz-Cf-Id:
-      - cvliuBBDR3NjMnqkIBn1Qeqnr2J4XWavYAds7fIbYLNkG7rRG4urJA==
+      - r5_Q1rWs4wto41pLIMCiZ_gEEV6quDBhlGax2NSMl4qpFWirMsWE5A==
+      Age:
+      - '26857'
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
@@ -71,5 +73,5 @@ http_interactions:
         and nuances that really brings it to a special experience.  Even if you think
         it looks terrible, throw this on your queque and slot it in for a Bad Movie
         Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
-  recorded_at: Thu, 02 Dec 2021 22:09:16 GMT
+  recorded_at: Fri, 03 Dec 2021 00:00:19 GMT
 recorded_with: VCR 6.0.0
