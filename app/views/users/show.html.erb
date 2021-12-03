@@ -29,7 +29,7 @@
       <% party.users.each do |user| %>
         <% if user.id == @facade.user.id %>
           <li><b><%= user.name %></b></li>
-        <% else %>
+        <% elsif user.name != @facade.host(party) %>
           <li><%= user.name %></li>
         <% end %>
       <% end %>
