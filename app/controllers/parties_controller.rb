@@ -10,14 +10,19 @@ class PartiesController < ApplicationController
   def create
     party = Party.new(party_params)
 
-    if party.save
-      UserParty.create(user: User.find(params[:user_id]), party: party)
+    if params[:length] >= params[:runtime]
+      if party.save
+        UserParty.create(user: User.find(params[:user_id]), party: party)
 
-      user_parties(party)
+        user_parties(party)
 
-      redirect_to "/users/#{params[:user_id]}"
+        redirect_to "/users/#{params[:user_id]}"
+      else
+        flash[:alert] = 'Could not create viewing party.'
+        redirect_to "/users/#{params[:user_id]}/movies/#{params[:movie_id]}/viewing-party/new"
+      end
     else
-      flash[:alert] = 'Could not create viewing party.'
+      flash[:alert] = 'Could not create party: party length must be greater than movie runtime'
       redirect_to "/users/#{params[:user_id]}/movies/#{params[:movie_id]}/viewing-party/new"
     end
   end

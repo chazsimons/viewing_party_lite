@@ -52,5 +52,18 @@ RSpec.describe 'New Party' do
       expect(current_path).to eq("/users/#{@user_1.id}/movies/#{@movie.id}/viewing-party/new")
       expect(page).to have_content('Could not create viewing party.')
     end
+
+    it 'does not create a party when the length is less than the runtime', :vcr do
+      visit "/users/#{@user_1.id}/movies/#{@movie.id}/viewing-party/new"
+
+      fill_in :start_time, with: DateTime.now
+
+      fill_in :length, with: @movie.runtime - 1
+
+      click_button("Create Party")
+
+      expect(current_path).to eq("/users/#{@user_1.id}/movies/#{@movie.id}/viewing-party/new")
+      expect(page).to have_content('Could not create party: party length must be greater than movie runtime')
+    end
   end
 end
