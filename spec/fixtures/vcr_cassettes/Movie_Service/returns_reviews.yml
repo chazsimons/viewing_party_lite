@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 3563bb83f2cdceccdfa71129910b80697aa229a6
+      X-Memc-Age:
+      - '12464'
+      X-Memc-Expires:
+      - '4258'
+      Date:
+      - Fri, 03 Dec 2021 00:56:04 GMT
+      Cache-Control:
+      - public, max-age=28800
+      Etag:
+      - W/"da1e99150804864cbf055d612b081cee"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - RefreshHit from cloudfront
+      Via:
+      - 1.1 64728acddeb290ea8e95d7ffd4d64ae2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - Q20N1vMyblZIe1aQSqkgWr8MyOsm4x5BFlKDuvOM0IGKngo1F-fCWg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
+        watch, could watch again, but it''s hard to honestly recommend.\r\n\r\nThis
+        is one of those movies that is good because it is bad, whether or not that
+        is done on purpose, for the purposes of parody.  Otherwise it''s just a good
+        old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts
+        by almost anyone who was famous in the mid-1990s.  Though I do feel like most
+        of the actors I liked were essentially wasted, but it is possible that was
+        by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking
+        on the movie almost makes me want a modernization, it has so many little quirks
+        and nuances that really brings it to a special experience.  Even if you think
+        it looks terrible, throw this on your queque and slot it in for a Bad Movie
+        Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
+  recorded_at: Fri, 03 Dec 2021 00:56:04 GMT
+recorded_with: VCR 6.0.0

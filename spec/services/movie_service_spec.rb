@@ -46,4 +46,24 @@ RSpec.describe 'Movie Service', :vcr do
     expect(details[:genres]).to be_an(Array)
     expect(details[:runtime]).to be_a(Integer)
   end
+
+  it 'returns the cast' do
+    film = @service.cast(75)
+    cast = film[:cast]
+    top_billed = cast[0]
+
+    expect(film).to be_a(Hash)
+    expect(cast).to be_a(Array)
+    expect(top_billed[:name]).to be_a(String)
+    expect(top_billed[:character]).to be_a(String)
+  end
+
+  it 'returns reviews' do
+    reviews = @service.reviews(75)
+    results = reviews[:results][0]
+
+    expect(reviews).to be_a(Hash)
+    expect(results[:author]).to be_a(String)
+    expect(results[:content]).to be_a(String)
+  end
 end
