@@ -79,3 +79,34 @@ VCR.configure do |config|
   config.default_cassette_options = { re_record_interval: 7.days }
   config.configure_rspec_metadata!
 end
+def movie_data
+  {:adult=>false,
+ :backdrop_path=>"/ELsTifJ2lu4vsMhoHeZ5EnncHw.jpg",
+ :belongs_to_collection=>nil,
+ :budget=>70000000,
+ :genres=>[{:id=>35, :name=>"Comedy"}, {:id=>14, :name=>"Fantasy"}, {:id=>878, :name=>"Science Fiction"}],
+ :homepage=>"https://www.warnerbros.com/movies/mars-attacks/",
+ :id=>75,
+ :imdb_id=>"tt0116996",
+ :original_language=>"en",
+ :original_title=>"Mars Attacks!",
+ :overview=>
+  "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+ :popularity=>15.809,
+ :poster_path=>"/hll4O5vSAfnZDb6JbnP06GPtz7b.jpg",
+ :production_companies=>
+  [{:id=>8601, :logo_path=>nil, :name=>"Tim Burton Productions", :origin_country=>""},
+   {:id=>174, :logo_path=>"/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png", :name=>"Warner Bros. Pictures", :origin_country=>"US"}],
+ :production_countries=>[{:iso_3166_1=>"US", :name=>"United States of America"}],
+ :release_date=>"1996-12-12",
+ :revenue=>101371017,
+ :runtime=>106,
+ :spoken_languages=>
+  [{:english_name=>"English", :iso_639_1=>"en", :name=>"English"}, {:english_name=>"French", :iso_639_1=>"fr", :name=>"Français"}],
+ :status=>"Released",
+ :tagline=>"Nice planet. We'll take it!",
+ :title=>"Mars Attacks!",
+ :video=>false,
+ :vote_average=>6.4,
+ :vote_count=>4280}
+end
