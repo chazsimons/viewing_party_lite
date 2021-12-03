@@ -31,7 +31,7 @@ class PartiesController < ApplicationController
   def user_parties(party)
     params.each do |key, value|
       if value == "1"
-        UserParty.create(user: User.find(key), party: party)
+        UserParty.create(user: User.find(key), party: party) if key != 'creator_id'
       end
     end
   end
