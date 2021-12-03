@@ -25,7 +25,7 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 02 Dec 2021 16:32:42 GMT
+      - Fri, 03 Dec 2021 00:52:03 GMT
       Server:
       - openresty
       Access-Control-Allow-Origin:
@@ -42,23 +42,21 @@ http_interactions:
       X-Memc-Key:
       - 9e6a179e692756c6fa7ddd27412dd12f2f795f3c
       X-Memc-Age:
-      - '9307'
+      - '4650'
       X-Memc-Expires:
-      - '6508'
+      - '12490'
       Etag:
-      - W/"8c83f3df2503e0f0fb7968e41b625504"
+      - W/"8726d02667924404edf8e2391d7707d3"
       Vary:
       - Accept-Encoding
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 fd450117df0639d714d4dd6d760d6213.cloudfront.net (CloudFront)
+      - 1.1 e00a5026a6ea540ba2044bfd7feef899.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - "-xdLhdlme1LHbERd917jUv_f5hVBT1hC9VSYF8fdlqQbbKpnVxdVYw=="
-      Age:
-      - '26857'
+      - PPNpe8mXRHOku-M98F6aDTWurQpQ6I9nuk4-6CEiZEgkAmbqhWRXlg==
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"cast":[{"adult":false,"gender":2,"id":514,"known_for_department":"Acting","name":"Jack
@@ -119,7 +117,7 @@ http_interactions:
         President","credit_id":"60b702496905fb0040868faa","order":29},{"adult":false,"gender":2,"id":16427,"known_for_department":"Acting","name":"Enrique
         Castillo","original_name":"Enrique Castillo","popularity":0.6,"profile_path":"/aKuTti43jY8LZr2oKDcQWdAhnLq.jpg","cast_id":68,"character":"Hispanic
         Colonel","credit_id":"60bed090bb26020057a8443e","order":30}],"crew":[{"adult":false,"gender":2,"id":511,"known_for_department":"Production","name":"Larry
-        J. Franco","original_name":"Larry J. Franco","popularity":0.6,"profile_path":null,"credit_id":"52fe4214c3a36847f80022fd","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":307,"known_for_department":"Camera","name":"Peter
+        J. Franco","original_name":"Larry J. Franco","popularity":0.6,"profile_path":"/ohtAUK0wFyRJa5a9TIM3BSQkoCG.jpg","credit_id":"52fe4214c3a36847f80022fd","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":307,"known_for_department":"Camera","name":"Peter
         Suschitzky","original_name":"Peter Suschitzky","popularity":0.6,"profile_path":"/luMSBjy5mBakdKISk4GI9GrxBT2.jpg","credit_id":"52fe4214c3a36847f8002343","department":"Camera","job":"Director
         of Photography"},{"adult":false,"gender":2,"id":510,"known_for_department":"Directing","name":"Tim
         Burton","original_name":"Tim Burton","popularity":5.116,"profile_path":"/gRM4lGpiBINAyiXaxEeJFDKzmge.jpg","credit_id":"52fe4214c3a36847f80022eb","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":510,"known_for_department":"Directing","name":"Tim
@@ -179,5 +177,5 @@ http_interactions:
         Bolder","original_name":"Sara Bolder","popularity":0.6,"profile_path":null,"credit_id":"5b1ee79e925141666400f4a3","department":"Sound","job":"Dialogue
         Editor"},{"adult":false,"gender":2,"id":1680739,"known_for_department":"Crew","name":"George
         Fisher","original_name":"George Fisher","popularity":0.6,"profile_path":"/mJ7uhFsgfZtZ58MU11mlPnUZWWy.jpg","credit_id":"57dd7610c3a3681414000697","department":"Crew","job":"Stunts"}]}'
-  recorded_at: Fri, 03 Dec 2021 00:00:19 GMT
+  recorded_at: Fri, 03 Dec 2021 00:52:03 GMT
 recorded_with: VCR 6.0.0

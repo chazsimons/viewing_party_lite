@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe MovieDetailsFacade do
   before :each do
-    @facade = MovieDetailsFacade.new(75, 1)
+    @user_1 = create(:user)
+    @facade = MovieDetailsFacade.new(75, @user_1.id)
   end
 
   describe 'movie' do

@@ -79,3 +79,58 @@ VCR.configure do |config|
   config.default_cassette_options = { re_record_interval: 7.days }
   config.configure_rspec_metadata!
 end
+def movie_data
+  {:adult=>false,
+ :backdrop_path=>"/ELsTifJ2lu4vsMhoHeZ5EnncHw.jpg",
+ :belongs_to_collection=>nil,
+ :budget=>70000000,
+ :genres=>[{:id=>35, :name=>"Comedy"}, {:id=>14, :name=>"Fantasy"}, {:id=>878, :name=>"Science Fiction"}],
+ :homepage=>"https://www.warnerbros.com/movies/mars-attacks/",
+ :id=>75,
+ :imdb_id=>"tt0116996",
+ :original_language=>"en",
+ :original_title=>"Mars Attacks!",
+ :overview=>
+  "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+ :popularity=>15.809,
+ :poster_path=>"/hll4O5vSAfnZDb6JbnP06GPtz7b.jpg",
+ :production_companies=>
+  [{:id=>8601, :logo_path=>nil, :name=>"Tim Burton Productions", :origin_country=>""},
+   {:id=>174, :logo_path=>"/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png", :name=>"Warner Bros. Pictures", :origin_country=>"US"}],
+ :production_countries=>[{:iso_3166_1=>"US", :name=>"United States of America"}],
+ :release_date=>"1996-12-12",
+ :revenue=>101371017,
+ :runtime=>106,
+ :spoken_languages=>
+  [{:english_name=>"English", :iso_639_1=>"en", :name=>"English"}, {:english_name=>"French", :iso_639_1=>"fr", :name=>"Français"}],
+ :status=>"Released",
+ :tagline=>"Nice planet. We'll take it!",
+ :title=>"Mars Attacks!",
+ :video=>false,
+ :vote_average=>6.4,
+ :vote_count=>4280}
+end
+def cast_data
+  {:adult=>false,
+ :gender=>2,
+ :id=>514,
+ :known_for_department=>"Acting",
+ :name=>"Jack Nicholson",
+ :original_name=>"Jack Nicholson",
+ :popularity=>16.27,
+ :profile_path=>"/6h12pZsgj3WWjMtykUgfLkLEBWz.jpg",
+ :cast_id=>6,
+ :character=>"President James Dale / Art Land",
+ :credit_id=>"52fe4214c3a36847f8002301",
+ :order=>0}
+end
+def review_data
+  {:author=>"Kamurai",
+ :author_details=>{:name=>"Kamurai", :username=>"Kamurai", :avatar_path=>"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg", :rating=>6.0},
+ :content=>
+  "Good watch, could watch again, but it's hard to honestly recommend.\r\n\r\nThis is one of those movies that is good because it is bad, whether or not that is done on purpose, for the purposes of parody.  Otherwise it's just a good old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts by almost anyone who was famous in the mid-1990s.  Though I do feel like most of the actors I liked were essentially wasted, but it is possible that was by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking on the movie almost makes me want a modernization, it has so many little quirks and nuances that really brings it to a special experience.  Even if you think it looks terrible, throw this on your queque and slot it in for a Bad Movie Night.",
+ :created_at=>"2021-02-23T16:52:21.762Z",
+ :id=>"603532c597eab4003fd23f18",
+ :updated_at=>"2021-06-23T15:58:52.206Z",
+ :url=>"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}
+end

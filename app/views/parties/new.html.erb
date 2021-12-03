@@ -1,4 +1,4 @@
-<h2>Create a new Viewing Party!</h2>
+<h2>Create a Viewing Party for <%= @facade.movie.title %>!</h2>
 
 <%= form_with url: new_party_path, method: :post, local: true do |f| %>
   <%= f.label :length, "Duration of Party" %>

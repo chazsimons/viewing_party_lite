@@ -13,10 +13,13 @@ RSpec.describe 'User Dashboard' do
       expect(page).to_not have_content(@user_2.name)
     end
 
-    it 'has a link to descover movies' do
-      click_button 'Discover Movies'
+    it 'has a button to discover movies', :vcr do
+      click_button "Discover Movies"
+      expect(current_path).to eq("/users/#{@user_1.id}/discover")
+    end
 
-      expect(current_path).to eq "/users/#{@user_1.id}/discover"
+    it 'has a section for viewing parties and their details' do
+      expect(page).to have_content("Viewing Parties")
     end
   end
 end
