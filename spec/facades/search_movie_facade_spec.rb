@@ -6,10 +6,11 @@ RSpec.describe SearchMovieFacade do
       facade = SearchMovieFacade.new("Pee Wee")
 
       search = facade.movies
+      first_result = search.first
 
       expect(search.length).to eq 12
       expect(search).to be_a Array
-      expect(search.first.title).to eq "Big Top Pee-wee"
+      expect(search.first.title).to eq(first_result.title)
     end
   end
 end
