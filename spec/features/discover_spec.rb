@@ -11,13 +11,13 @@ RSpec.describe 'Discover Movies' do
     end
 
     it 'has a button to discover top rated movies', :vcr do
-      visit "/users/#{@user_1.id}/discover"
+      visit "/discover"
 
       click_button("Top Rated Movies")
     end
 
     it 'has a search feature for movies', :vcr do
-      visit "/users/#{@user_1.id}/discover"
+      visit "/discover"
 
       within("#search") do
         expect(page).to have_content("Search by Keyword")
@@ -27,7 +27,7 @@ RSpec.describe 'Discover Movies' do
     end
 
     it 'has a link to the home page' do
-      visit "/users/#{@user_1.id}/discover"
+      visit "/discover"
 
       expect(page).to have_link("Home")
     end

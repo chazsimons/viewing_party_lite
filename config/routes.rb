@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy', as: 'logout'
 
   get '/dashboard',          to: 'users#show', as: 'user'
-  get '/users/:id/discover', to: 'users#discover', as: 'discover'
+  get '/discover', to: 'users#discover', as: 'discover'
 
   get '/users/:id/movies',          to: 'movies#index'
   get '/users/:user_id/movies/:id', to: 'movies#show'

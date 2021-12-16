@@ -20,7 +20,7 @@ RSpec.describe 'Movies Show Page' do
 
     it 'has a button to return to the discover page', :vcr do
       click_button "Discover Movies"
-      expect(current_path).to eq("/users/#{@user_1.id}/discover")
+      expect(current_path).to eq("/discover")
     end
 
     it 'displays relevant movie information', :vcr do
