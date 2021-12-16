@@ -1,4 +1,4 @@
-class PartiesController < ApplicationController
+class PartiesController < BaseController
   before_action :require_user
 
   def index

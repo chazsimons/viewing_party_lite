@@ -1,4 +1,5 @@
-class UsersController < ApplicationController
+class UsersController < BaseController
+  before_action :require_user, only: [:show]
 
   def show
     @facade = UserFacade.new(User.find(session[:user_id]))
