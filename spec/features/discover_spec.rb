@@ -4,6 +4,10 @@ RSpec.describe 'Discover Movies' do
   describe 'when a user visits the discover path' do
     before :each do
       @user_1 = create(:user)
+      visit '/login'
+      fill_in :email , with: @user_1.email
+      fill_in :password, with: @user_1.password
+      click_button "Log In"
     end
 
     it 'has a button to discover top rated movies', :vcr do

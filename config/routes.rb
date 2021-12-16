@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   post '/login',    to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy', as: 'logout'
 
-  get '/users/:id',          to: 'users#show', as: 'user'
+  get '/dashboard',          to: 'users#show', as: 'user'
   get '/users/:id/discover', to: 'users#discover', as: 'discover'
 
   get '/users/:id/movies',          to: 'movies#index'

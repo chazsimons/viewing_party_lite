@@ -13,7 +13,7 @@ RSpec.describe "Logging In" do
 
     click_button "Log In"
 
-    expect(current_path).to eq("/users/#{user.id}")
+    expect(current_path).to eq("/dashboard")
 
     expect(page).to have_content("Welcome back #{user.name}")
     expect(page).to have_content("#{user.name}'s Dashboard")

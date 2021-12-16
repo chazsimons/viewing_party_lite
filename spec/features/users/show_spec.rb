@@ -5,7 +5,11 @@ RSpec.describe 'User Dashboard' do
     before :each do
       @user_1 = create(:user)
       @user_2 = create(:user)
-      visit "/users/#{@user_1.id}"
+      visit '/login'
+      fill_in :email , with: @user_1.email
+      fill_in :password, with: @user_1.password
+      click_button "Log In"      
+      visit "/dashboard"
     end
 
     it 'has their name' do

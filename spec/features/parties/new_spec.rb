@@ -25,7 +25,7 @@ RSpec.describe 'New Party' do
       page.check("#{@user_3.id}")
 
       click_button("Create Party")
-      expect(current_path).to eq("/users/#{@user_1.id}")
+      expect(current_path).to eq("/dashboard")
 
       within("#party-#{@movie.id}") do
         expect(page).to have_content("#{@movie.title}")

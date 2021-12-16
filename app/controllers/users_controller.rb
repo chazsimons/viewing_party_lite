@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   def show
-    @facade = UserFacade.new(User.find(params[:id]))
+    @facade = UserFacade.new(User.find(session[:user_id]))
   end
 
   def new
@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   end
 
   def discover
-    @user = User.find(params[:id])
+    @user = User.find(session[:user_id])
   end
 
   private

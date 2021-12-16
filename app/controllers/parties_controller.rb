@@ -5,7 +5,7 @@ class PartiesController < ApplicationController
   end
 
   def new
-    @facade = MovieDetailsFacade.new(params[:movie_id], params[:user_id])
+    @facade = MovieDetailsFacade.new(params[:movie_id], session[:user_id])
   end
 
   def create
@@ -13,11 +13,11 @@ class PartiesController < ApplicationController
 
     if params[:length] >= params[:runtime]
       if party.save
-        UserParty.create(user: User.find(params[:user_id]), party: party)
+        UserParty.create(user: User.find(session[:user_id]), party: party)
 
         user_parties(party)
 
-        redirect_to "/users/#{params[:user_id]}"
+        redirect_to "/dashboard"
       else
         flash[:alert] = 'Could not create viewing party.'
         redirect_to "/users/#{params[:user_id]}/movies/#{params[:movie_id]}/viewing-party/new"
