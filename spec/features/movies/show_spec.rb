@@ -10,12 +10,12 @@ RSpec.describe 'Movies Show Page' do
       fill_in :email , with: @user_1.email
       fill_in :password, with: @user_1.password
       click_button "Log In"
-      visit "/users/#{@user_1.id}/movies/#{@movie.id}"
+      visit "/movies/#{@movie.id}"
     end
 
     it 'has a button to create a viewing party', :vcr do
       click_button "Create Viewing Party"
-      expect(current_path).to eq("/users/#{@user_1.id}/movies/#{@movie.id}/viewing-party/new")
+      expect(current_path).to eq("/movies/#{@movie.id}/viewing-party/new")
     end
 
     it 'has a button to return to the discover page', :vcr do

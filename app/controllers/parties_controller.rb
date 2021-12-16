@@ -20,11 +20,11 @@ class PartiesController < ApplicationController
         redirect_to "/dashboard"
       else
         flash[:alert] = 'Could not create viewing party.'
-        redirect_to "/users/#{params[:user_id]}/movies/#{params[:movie_id]}/viewing-party/new"
+        redirect_to "/movies/#{params[:movie_id]}/viewing-party/new"
       end
     else
       flash[:alert] = 'Could not create party: party length must be greater than movie runtime'
-      redirect_to "/users/#{params[:user_id]}/movies/#{params[:movie_id]}/viewing-party/new"
+      redirect_to "/movies/#{params[:movie_id]}/viewing-party/new"
     end
   end
 
