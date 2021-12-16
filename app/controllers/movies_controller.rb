@@ -1,4 +1,6 @@
 class MoviesController < ApplicationController
+  before_action :require_user
+  
   def show
     @facade = MovieDetailsFacade.new(params[:id], params[:user_id])
   end

@@ -9,6 +9,10 @@ RSpec.describe 'New Party' do
       @user_4 = create(:user)
       @facade = MovieDetailsFacade.new(75, @user_1.id)
       @movie = @facade.movie
+      visit '/login'
+      fill_in :email , with: @user_1.email
+      fill_in :password, with: @user_1.password
+      click_button "Log In"
     end
 
     it 'provides a form to create a new party', :vcr do
@@ -38,6 +42,10 @@ RSpec.describe 'New Party' do
       @user_4 = create(:user)
       @facade = MovieDetailsFacade.new(75, @user_1.id)
       @movie = @facade.movie
+      visit '/login'
+      fill_in :email , with: @user_1.email
+      fill_in :password, with: @user_1.password
+      click_button "Log In"
     end
 
     it 'does not create a party without a start time', :vcr do

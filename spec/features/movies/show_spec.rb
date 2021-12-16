@@ -6,6 +6,10 @@ RSpec.describe 'Movies Show Page' do
       @user_1 = create(:user)
       @facade = MovieDetailsFacade.new(75, @user_1.id)
       @movie = @facade.movie
+      visit '/login'
+      fill_in :email , with: @user_1.email
+      fill_in :password, with: @user_1.password
+      click_button "Log In"
       visit "/users/#{@user_1.id}/movies/#{@movie.id}"
     end
 
