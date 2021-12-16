@@ -52,210 +52,18 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 f70a58ce7ab3276e2d4987075b643aea.cloudfront.net (CloudFront)
+      - 1.1 9de47a1dc97604e747abf99432071d94.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - J71UWd6FYKfhct5emZZFCkRbLycCEiQ9tUg3cHoZ6Xep5Yis1B8ZmA==
+      - Fi6oyxMcbptMdd1QQi9Rag2NPY-WWxSZylJqw-0YMNRwxwxXBV33RA==
       Age:
-      - '216'
+      - '1651'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:45 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.8.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 16 Dec 2021 20:42:09 GMT
-      Server:
-      - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
-      X-Memc-Age:
-      - '9840'
-      X-Memc-Expires:
-      - '4790'
-      Etag:
-      - W/"b251532fe4add2eda3477ae927467656"
-      Vary:
-      - Accept-Encoding
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 fd450117df0639d714d4dd6d760d6213.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - LAX50-C2
-      X-Amz-Cf-Id:
-      - 2TZlKlvwqJ2imIN97sQ4cZHQSekTV9Y9FAWDl2QD02FkeVmUdDUauQ==
-      Age:
-      - '216'
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:45 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.8.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 16 Dec 2021 20:42:09 GMT
-      Server:
-      - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
-      X-Memc-Age:
-      - '9840'
-      X-Memc-Expires:
-      - '4790'
-      Etag:
-      - W/"b251532fe4add2eda3477ae927467656"
-      Vary:
-      - Accept-Encoding
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 207df1932a3ef8ff529fa368bf612240.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - LAX50-C2
-      X-Amz-Cf-Id:
-      - BYhnpiEGKGi7OetevPdPArPWQDCxhy4frQbnluXhYpZL46XrN6eP3Q==
-      Age:
-      - '217'
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:45 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.8.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 16 Dec 2021 20:42:09 GMT
-      Server:
-      - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
-      X-Memc-Age:
-      - '9840'
-      X-Memc-Expires:
-      - '4790'
-      Etag:
-      - W/"b251532fe4add2eda3477ae927467656"
-      Vary:
-      - Accept-Encoding
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 4d0d70ec0eabd0560d63af069388e374.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - LAX50-C2
-      X-Amz-Cf-Id:
-      - RicZnm0_wkn8KPwvws5HUgwgqTs_88oZvH2pWZ3_6AbWifFo8ehXBw==
-      Age:
-      - '217'
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:40 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
@@ -312,14 +120,14 @@ http_interactions:
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - 9BtoJNGBhBpCq9MwE_-Ie-5I7USXygh0vYo84BITD7-abJKR3tBe5g==
+      - 1tgjPjf3w8MCfEsS8bDUk2bvG0c8ouplMfvmShYb-51tJJlGLFc6_A==
       Age:
-      - '217'
+      - '1651'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:40 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
@@ -372,18 +180,18 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 64728acddeb290ea8e95d7ffd4d64ae2.cloudfront.net (CloudFront)
+      - 1.1 83fb8fa820a10369f86ee48b015d2677.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - cMVevHEbytcr7c45YQyLJf5bfP0M2K819IEjt4BvrpdUE-EIcN7r_w==
+      - kl-GW9jvOgjhsISuPYJGSbfzJXo93HK4OllyRsmHXuZ7dJYLysq_Tg==
       Age:
-      - '217'
+      - '1652'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:40 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
@@ -436,18 +244,210 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 81643bff8844b667cc968721a35ef95a.cloudfront.net (CloudFront)
+      - 1.1 4eef074c708dc507931831218d0d5d48.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - QOpxkFETfVohDDvv4xhTyG9ArwBa59YKWJgn5H2tr4mFeAeQW_BOEA==
+      - jEAo6HTQmBJ4Roc2P48r8u5WT1GwNJoWuHodIRca635nKYmGJvgSOg==
       Age:
-      - '217'
+      - '1652'
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 16 Dec 2021 20:42:09 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
+      X-Memc-Age:
+      - '9840'
+      X-Memc-Expires:
+      - '4790'
+      Etag:
+      - W/"b251532fe4add2eda3477ae927467656"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 12435f922f48ee227c1e888952ed66ac.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - 1Yjl_s6BdMDMKXzWUWHxSHGe2ffUCdy4yGpRIMQeE8W6dbtgzD0C9A==
+      Age:
+      - '1652'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 16 Dec 2021 20:42:09 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
+      X-Memc-Age:
+      - '9840'
+      X-Memc-Expires:
+      - '4790'
+      Etag:
+      - W/"b251532fe4add2eda3477ae927467656"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 4a7d33ed6e1269d258afa1464fe1d544.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - 9f_rP9rq2SGu91xF9AflQJKpJYp8Am45u6a5FhtZ18loxQ8daCdEOg==
+      Age:
+      - '1652'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 16 Dec 2021 20:42:09 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 9b8aad6c5f949d24c83ddb8c2f98747680950123
+      X-Memc-Age:
+      - '9840'
+      X-Memc-Expires:
+      - '4790'
+      Etag:
+      - W/"b251532fe4add2eda3477ae927467656"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 a91f9752f88d12f73d321bf3ae28a162.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - sRvIdn-QYrocfPhHU7Ig3J1ckHY30vi3Hy1ub_FYCpW4ikGsTWC4Uw==
+      Age:
+      - '1652'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOiIvRUxzVGlmSjJsdTR2c01ob0hlWjVFbm5jSHcuanBnIiwiYmVsb25nc190b19jb2xsZWN0aW9uIjpudWxsLCJidWRnZXQiOjcwMDAwMDAwLCJnZW5yZXMiOlt7ImlkIjozNSwibmFtZSI6IkNvbWVkeSJ9LHsiaWQiOjE0LCJuYW1lIjoiRmFudGFzeSJ9LHsiaWQiOjg3OCwibmFtZSI6IlNjaWVuY2UgRmljdGlvbiJ9XSwiaG9tZXBhZ2UiOiJodHRwczovL3d3dy53YXJuZXJicm9zLmNvbS9tb3ZpZXMvbWFycy1hdHRhY2tzLyIsImlkIjo3NSwiaW1kYl9pZCI6InR0MDExNjk5NiIsIm9yaWdpbmFsX2xhbmd1YWdlIjoiZW4iLCJvcmlnaW5hbF90aXRsZSI6Ik1hcnMgQXR0YWNrcyEiLCJvdmVydmlldyI6IidXZSBjb21lIGluIHBlYWNlJyBpcyBub3Qgd2hhdCB0aG9zZSBncmVlbiBtZW4gZnJvbSBNYXJzIG1lYW4gd2hlbiB0aGV5IGludmFkZSBvdXIgcGxhbmV0LCBhcm1lZCB3aXRoIGlycmVzaXN0aWJsZSB3ZWFwb25zIGFuZCBhIGNydWVsIHNlbnNlIG9mIGh1bW9yLiAgVGhpcyBzdGFyIHN0dWRkZWQgY2FzdCBtdXN0IHBsYXkgdmljdGltIHRvIHRoZSBhbGllbuKAmXMgZnVuIGFuZCBnYW1lcyBpbiB0aGlzIGNvbWVkeSBob21hZ2UgdG8gc2NpZW5jZSBmaWN0aW9uIGZpbG1zIG9mIHRoZSAnNTBzIGFuZCAnNjBzLiIsInBvcHVsYXJpdHkiOjE4LjQ3NiwicG9zdGVyX3BhdGgiOiIvaGxsNE81dlNBZm5aRGI2SmJuUDA2R1B0ejdiLmpwZyIsInByb2R1Y3Rpb25fY29tcGFuaWVzIjpbeyJpZCI6ODYwMSwibG9nb19wYXRoIjpudWxsLCJuYW1lIjoiVGltIEJ1cnRvbiBQcm9kdWN0aW9ucyIsIm9yaWdpbl9jb3VudHJ5IjoiIn0seyJpZCI6MTc0LCJsb2dvX3BhdGgiOiIvSXVBbGhJOWVWQzlaOFVRV09JRGRXUktTRUoucG5nIiwibmFtZSI6Ildhcm5lciBCcm9zLiBQaWN0dXJlcyIsIm9yaWdpbl9jb3VudHJ5IjoiVVMifV0sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbeyJpc29fMzE2Nl8xIjoiVVMiLCJuYW1lIjoiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIn1dLCJyZWxlYXNlX2RhdGUiOiIxOTk2LTEyLTEyIiwicmV2ZW51ZSI6MTAxMzcxMDE3LCJydW50aW1lIjoxMDYsInNwb2tlbl9sYW5ndWFnZXMiOlt7ImVuZ2xpc2hfbmFtZSI6IkVuZ2xpc2giLCJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIn0seyJlbmdsaXNoX25hbWUiOiJGcmVuY2giLCJpc29fNjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMifV0sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6Ik5pY2UgcGxhbmV0LiBXZSdsbCB0YWtlIGl0ISIsInRpdGxlIjoiTWFycyBBdHRhY2tzISIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjo2LjQsInZvdGVfY291bnQiOjQyOTR9
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75/credits?api_key=<movie_api>
@@ -504,9 +504,9 @@ http_interactions:
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - FkfR9KQm8G2ptAn9-mjXT5QD8U0FHZ18OzVGtu6r98OZMy9dA-bNWQ==
+      - BZpS-4BrkcuaY1jEmutIlp4abJXVMaowEHWzoUkmYBDCQsYhdmzz-Q==
       Age:
-      - '217'
+      - '1652'
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"cast":[{"adult":false,"gender":2,"id":514,"known_for_department":"Acting","name":"Jack
@@ -627,7 +627,7 @@ http_interactions:
         Bolder","original_name":"Sara Bolder","popularity":0.75,"profile_path":null,"credit_id":"5b1ee79e925141666400f4a3","department":"Sound","job":"Dialogue
         Editor"},{"adult":false,"gender":2,"id":1680739,"known_for_department":"Crew","name":"George
         Fisher","original_name":"George Fisher","popularity":1.38,"profile_path":"/mJ7uhFsgfZtZ58MU11mlPnUZWWy.jpg","credit_id":"57dd7610c3a3681414000697","department":"Crew","job":"Stunts"}]}'
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
@@ -680,13 +680,13 @@ http_interactions:
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 8dabec3009252f87adad4ea8e2f9d8f8.cloudfront.net (CloudFront)
+      - 1.1 1cc54b4fe0d62c2eb8b264f37ef2aa5c.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - GTWRSntbdFesT_FdgENd22DB9JMq8PK3DaoEBi7b0dylSzZ2xw-gcQ==
+      - Jzw0pjemDuCK1gtCVuQMxw_hNy44eIJ6CwuzlMhAfJHzzrWwZfTq8w==
       Age:
-      - '216'
+      - '1651'
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
@@ -701,155 +701,7 @@ http_interactions:
         and nuances that really brings it to a special experience.  Even if you think
         it looks terrible, throw this on your queque and slot it in for a Bad Movie
         Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.8.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Server:
-      - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 3563bb83f2cdceccdfa71129910b80697aa229a6
-      X-Memc-Age:
-      - '1866'
-      X-Memc-Expires:
-      - '13214'
-      Date:
-      - Thu, 16 Dec 2021 20:42:09 GMT
-      Cache-Control:
-      - public, max-age=28800
-      Etag:
-      - W/"da1e99150804864cbf055d612b081cee"
-      Vary:
-      - Accept-Encoding
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 bd9637c4f3589cb11bd1c97ee3334dcd.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - LAX50-C2
-      X-Amz-Cf-Id:
-      - AEWnmYeOvQ7lVBgqbE4uKgj-BV8i0S7ElhhSRqGpocVJxIC6sj96EA==
-      Age:
-      - '216'
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
-        watch, could watch again, but it''s hard to honestly recommend.\r\n\r\nThis
-        is one of those movies that is good because it is bad, whether or not that
-        is done on purpose, for the purposes of parody.  Otherwise it''s just a good
-        old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts
-        by almost anyone who was famous in the mid-1990s.  Though I do feel like most
-        of the actors I liked were essentially wasted, but it is possible that was
-        by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking
-        on the movie almost makes me want a modernization, it has so many little quirks
-        and nuances that really brings it to a special experience.  Even if you think
-        it looks terrible, throw this on your queque and slot it in for a Bad Movie
-        Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.8.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Server:
-      - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 3563bb83f2cdceccdfa71129910b80697aa229a6
-      X-Memc-Age:
-      - '1866'
-      X-Memc-Expires:
-      - '13214'
-      Date:
-      - Thu, 16 Dec 2021 20:42:09 GMT
-      Cache-Control:
-      - public, max-age=28800
-      Etag:
-      - W/"da1e99150804864cbf055d612b081cee"
-      Vary:
-      - Accept-Encoding
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 97103436430d2d5eccb3856889cf7ecd.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - LAX50-C2
-      X-Amz-Cf-Id:
-      - B-pJNaJExItLboX3Mo2QdGRccDvrP6A5ux_pavBnDUq2yVIM9DXRjg==
-      Age:
-      - '216'
-    body:
-      encoding: ASCII-8BIT
-      string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
-        watch, could watch again, but it''s hard to honestly recommend.\r\n\r\nThis
-        is one of those movies that is good because it is bad, whether or not that
-        is done on purpose, for the purposes of parody.  Otherwise it''s just a good
-        old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts
-        by almost anyone who was famous in the mid-1990s.  Though I do feel like most
-        of the actors I liked were essentially wasted, but it is possible that was
-        by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking
-        on the movie almost makes me want a modernization, it has so many little quirks
-        and nuances that really brings it to a special experience.  Even if you think
-        it looks terrible, throw this on your queque and slot it in for a Bad Movie
-        Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
@@ -906,9 +758,9 @@ http_interactions:
       X-Amz-Cf-Pop:
       - LAX50-C2
       X-Amz-Cf-Id:
-      - vTI8zw9MIMcSPcawr0fy480tYdaFOgZ8OYnr1oww1WYF8e30FXiSWg==
+      - T1yBliWWMx4kqrzwLrVCu7WrPwyrX3-h7oV5R7NFwnZAkPQ024G3Wg==
       Age:
-      - '216'
+      - '1651'
     body:
       encoding: ASCII-8BIT
       string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
@@ -923,5 +775,153 @@ http_interactions:
         and nuances that really brings it to a special experience.  Even if you think
         it looks terrible, throw this on your queque and slot it in for a Bad Movie
         Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
-  recorded_at: Thu, 16 Dec 2021 20:45:46 GMT
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 3563bb83f2cdceccdfa71129910b80697aa229a6
+      X-Memc-Age:
+      - '1866'
+      X-Memc-Expires:
+      - '13214'
+      Date:
+      - Thu, 16 Dec 2021 20:42:09 GMT
+      Cache-Control:
+      - public, max-age=28800
+      Etag:
+      - W/"da1e99150804864cbf055d612b081cee"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 64728acddeb290ea8e95d7ffd4d64ae2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - HwIHwQtb3aeOhMdIXcmHWsGgc6KgZYPXHtoKTFvvspHCHE8YRgwEkw==
+      Age:
+      - '1651'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
+        watch, could watch again, but it''s hard to honestly recommend.\r\n\r\nThis
+        is one of those movies that is good because it is bad, whether or not that
+        is done on purpose, for the purposes of parody.  Otherwise it''s just a good
+        old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts
+        by almost anyone who was famous in the mid-1990s.  Though I do feel like most
+        of the actors I liked were essentially wasted, but it is possible that was
+        by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking
+        on the movie almost makes me want a modernization, it has so many little quirks
+        and nuances that really brings it to a special experience.  Even if you think
+        it looks terrible, throw this on your queque and slot it in for a Bad Movie
+        Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75/reviews?api_key=<movie_api>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.8.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 3563bb83f2cdceccdfa71129910b80697aa229a6
+      X-Memc-Age:
+      - '1866'
+      X-Memc-Expires:
+      - '13214'
+      Date:
+      - Thu, 16 Dec 2021 20:42:09 GMT
+      Cache-Control:
+      - public, max-age=28800
+      Etag:
+      - W/"da1e99150804864cbf055d612b081cee"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 83fb8fa820a10369f86ee48b015d2677.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C2
+      X-Amz-Cf-Id:
+      - soHtPNPb2WUMu2Hd-4NcvvoT9EwxuXM6YyBW9P6k7BoKa241sI_8Kw==
+      Age:
+      - '1651'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":75,"page":1,"results":[{"author":"Kamurai","author_details":{"name":"Kamurai","username":"Kamurai","avatar_path":"/sKeC7qZLAKreuwxH4x6U3mN7Aa8.jpg","rating":6.0},"content":"Good
+        watch, could watch again, but it''s hard to honestly recommend.\r\n\r\nThis
+        is one of those movies that is good because it is bad, whether or not that
+        is done on purpose, for the purposes of parody.  Otherwise it''s just a good
+        old jump in \"The Way Back Machine\" to see a litany of cameos or cheap parts
+        by almost anyone who was famous in the mid-1990s.  Though I do feel like most
+        of the actors I liked were essentially wasted, but it is possible that was
+        by design so the Martians could keep the focus for the majority of the movie.\r\n\r\nRethinking
+        on the movie almost makes me want a modernization, it has so many little quirks
+        and nuances that really brings it to a special experience.  Even if you think
+        it looks terrible, throw this on your queque and slot it in for a Bad Movie
+        Night.","created_at":"2021-02-23T16:52:21.762Z","id":"603532c597eab4003fd23f18","updated_at":"2021-06-23T15:58:52.206Z","url":"https://www.themoviedb.org/review/603532c597eab4003fd23f18"}],"total_pages":1,"total_results":1}'
+  recorded_at: Thu, 16 Dec 2021 21:09:41 GMT
 recorded_with: VCR 6.0.0

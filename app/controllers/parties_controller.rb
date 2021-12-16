@@ -1,11 +1,16 @@
 class PartiesController < BaseController
-  before_action :require_user
+  before_action :require_user, only: [:create]
 
   def index
   end
 
   def new
-    @facade = MovieDetailsFacade.new(params[:movie_id], session[:user_id])
+    if !current_user
+      flash[:alert] = "You must be registered and logged in to use this feature"
+      redirect_to "/movies/#{params[:movie_id]}"
+    else
+      @facade = MovieDetailsFacade.new(params[:movie_id], session[:user_id])
+    end
   end
 
   def create

@@ -43,4 +43,20 @@ RSpec.describe 'Movies Show Page' do
       end
     end
   end
+
+  describe 'when a visitor visits the movie show page' do
+    before :each do
+      @user_1 = create(:user)
+      @facade = MovieDetailsFacade.new(75, @user_1.id)
+      @movie = @facade.movie
+      visit "/movies/#{@movie.id}"
+    end
+
+    it 'will not allow the creation of a viewing party', :vcr do
+      click_button "Create Viewing Party for #{@movie.title}"
+
+      expect(current_path).to eq("/movies/#{@movie.id}")
+      expect(page).to have_content("You must be registered and logged in to use this feature")
+    end
+  end
 end
