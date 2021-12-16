@@ -26,4 +26,13 @@ RSpec.describe 'User Dashboard' do
       expect(page).to have_content("Viewing Parties")
     end
   end
+
+  describe 'when a visitor visits /dashboard' do
+    it 'alerts them to register or log in' do
+      visit "/dashboard"
+
+      expect(current_path).to eq(root_path)
+      expect(page).to have_content("You must be registered and logged in to use this feature")
+    end
+  end
 end

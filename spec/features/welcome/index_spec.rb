@@ -59,7 +59,11 @@ RSpec.describe 'Landing Page' do
     end
 
     it 'has a link to logout' do
-      expect(page).to have_link("Log Out")
+      expect(page).to have_content("#{@user_1.email}")
+
+      click_link("Log Out")
+      expect(current_path).to eq(root_path)
+      expect(page).to_not have_content("#{@user_1.email}")
     end
   end
 end
