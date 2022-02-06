@@ -12,3 +12,59 @@
  *
  */
 @import 'bootstrap';
+
+body  {
+  background-image: url('theater_bg.png');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  padding-bottom: 70px;
+}
+footer {
+  background-color: #22252a;
+  color: white;
+}
+h1 {
+  color: white;
+  text-shadow: 10px 10px 15px #000000;
+  font-family: "Chalkduster";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 5vw;
+}
+h2 {
+  color: white;
+  text-shadow: 10px 10px 15px #000000;
+  font-family: "Marker Felt";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 4vw;
+}
+
+h3 {
+  color: white;
+  text-shadow: 10px 10px 15px #000000;
+  font-family: "Marker Felt";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3.5vw;
+}
+
+h4 {
+  color: white;
+  text-shadow: 10px 10px 15px #000000;
+  font-family: "Marker Felt";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5vw;
+}
+
+#flash-msg {
+  color: white;
+  text-shadow: 10px 10px 15px #000000;
+  font-family: "Marker Felt";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5vw;
+}

@@ -1,18 +1,31 @@
-<h1 id="header">Viewing Party Light</h1>
-
-<% if current_user.nil? %>
-<section id="create_user">
-  <%= button_to "Create New User", "/register", method: :get %>
-</section>
+<h1 id="header" class='text-center'>Viewing Party Light</h1>
 <br>
-<%= link_to "Log In", login_path %>
-<% else %>
-<%= link_to "Log Out", logout_path, method: :delete %>
 <br>
-<h2>Existing Users:<br></h2>
-<% @users.each do |user| %>
-  <section id="user-<%= user.id %>">
-    <p><%= user.email %></p>
-  </section>
+<br>
+<br>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <% if current_user.nil? %>
+        <section id="create_user">
+          <%= button_to "Create New User", "/register", method: :get %>
+        </section>
+        <br>
+        <br>
+        <br>
+        <%= button_to "Log In", login_path, method: :get%>
+      <% else %>
+        <%= link_to "Log Out", logout_path, method: :delete %>
+        <br>
+        <br>
+        <br>
+        <h2>Existing Users:<br></h2>
+        <% @users.each do |user| %>
+          <section id="user-<%= user.id %>">
+            <p><%= user.email %></p>
+          </section>
+        <% end %>
+      </div>
+  </div>
 <% end %>
-<% end %>
+</div>
