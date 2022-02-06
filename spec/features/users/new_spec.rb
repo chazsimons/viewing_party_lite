@@ -6,6 +6,8 @@ RSpec.describe 'New User Page' do
 
     fill_in :name, with: 'Test Name'
     fill_in :email, with: 'test@example.com'
+    fill_in :password, with: 'test123'
+    fill_in :password_confirmation, with: 'test123'
 
     click_button
 
@@ -27,6 +29,8 @@ RSpec.describe 'New User Page' do
 
     fill_in :name, with: 'Test Name'
     fill_in :email, with: 'test@example.com'
+    fill_in :password, with: 'test123'
+    fill_in :password_confirmation, with: 'test123'
 
     click_button
 
@@ -34,11 +38,27 @@ RSpec.describe 'New User Page' do
 
     fill_in :name, with: 'Test Name 2'
     fill_in :email, with: 'test@example.com'
+    fill_in :password, with: 'test123'
+    fill_in :password_confirmation, with: 'test123'
 
     click_button
 
     expect(current_path).to eq new_user_path
 
     expect(page).to have_content("Could not create user")
+  end
+
+  it 'returns an error if passwords do not match' do
+    visit new_user_path
+
+    fill_in :name, with: 'Test Name'
+    fill_in :email, with: 'test@example.com'
+    fill_in :password, with: 'test123'
+    fill_in :password_confirmation, with: 'test125'
+
+    click_button
+
+    expect(current_path).to eq new_user_path
+    expect(page).to have_content("Password and Password Confirmation did not match. Please try again")
   end
 end
